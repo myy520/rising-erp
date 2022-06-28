@@ -247,7 +247,7 @@
         if (ajax.readyState===4 &&ajax.status===200) {
           res = ajax.responseText;
         } else {
-          res = 'ERP系统';
+          res = '云南中运科技';
         }
       }
       ajax.open('get', url, false);
@@ -255,7 +255,7 @@
       return res;
     }
     window._CONFIG = {};
-    window._CONFIG['domianURL'] = '/jshERP-boot';
+    window._CONFIG['domianURL'] = '/api';
     let statisticsCode = '1cd9bcbaae133f03a6eb19da6579aaba'
     window.SYS_TITLE = getPlatform("name");
     window.SYS_URL = getPlatform("url");
